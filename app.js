@@ -30,7 +30,7 @@ app.get('/nosotros',(req, res) => {
   res.send('estas en la pagina de noso')
 })
 app.get('/acerca de',(req, res) => {
-  res.send('estas en la pagina de acerca')
+  res.send('estas en la pagina de acercaa')
 })
 app.use((req, res, next) => {
   res.status(404).sendFile(__dirname +"/public/404.html")
